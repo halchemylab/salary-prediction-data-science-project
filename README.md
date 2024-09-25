@@ -20,7 +20,7 @@ https://www.kaggle.com/datasets/abdallahwagih/company-employees
 
 # How to Run
 
-1. Clone the repository: git clone https://github.com/your-username/salary-prediction-data-science-project.git
+1. Clone the repository: git clone https://github.com/halchemylab/salary-prediction-data-science-project.git
 2. Run the Streamlit app: streamlit run app.py
 
 # Usage
