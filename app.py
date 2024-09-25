@@ -25,8 +25,8 @@ if predict:
     st.balloons()
     
     X1 = np.array([X])
-    prediction = model.predict(X1)
-    st.write(f"Salary Prediction is {prediction}")
+    prediction = model.predict(X1)[0]
+    st.write(f"Salary Prediction is $ {prediction:,.2f}")
     
 else:
     "Please press the button for app to make the prediction"
